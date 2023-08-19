@@ -1,0 +1,25 @@
+#a{
+    display: flex;
+    flex-direction: row;
+    border: 2px;
+    justify-content: center;
+    
+}
+
+
+#b{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#c{
+    display: flex;
+    justify-content: stretch;
+}
+
+
+#d{
+    display: flex;
+    justify-content: center;
+}

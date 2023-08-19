@@ -1,0 +1,52 @@
+.button{
+    font-size: 0.7em;
+    height: 150px;
+    width: 300px;
+    border: 20px;
+    line-height: 3;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: darkgray;
+    
+}
+
+.button2{
+    font-size: 0.5em;
+    height: 70px;
+    width: 100px;
+    line-height: 2;
+    padding: 5px;
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    background-color: darkblue;
+}
+
+
+.button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.card-body{
+    border: 5px solid black;
+    text-align: center;
+}
+
+.wright{
+    width: 290px;
+    height: 200px;
+}
+
+.boeing-airbus{
+    width: 450px;
+    height: 250px;
+}
+
+figcaption{
+    caption-side: bottom;
+    font-size: 0.8em;
+    align-items: center;
+}

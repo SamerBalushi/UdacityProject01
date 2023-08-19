@@ -1,0 +1,53 @@
+#boeing-l {
+
+    width: 350px;
+    height: 200px;
+    background-position: center;
+
+}
+
+#boeing-c {
+
+    width: 450px;
+    height: 250px;
+
+}
+
+#boeing-m {
+
+    width: 450px;
+    height: 250px;
+}
+
+#boeing-b{
+
+    width: 450px;
+    height: 250px;
+
+}
+
+.button{
+    font-size: 0.7em;
+    height: 150px;
+    border: 20px;
+    line-height: 3;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: darkgray;
+    width: 300px;
+
+}
+
+.button:hover {
+    background-color: grey;
+    cursor: pointer
+
+}
+
+figcaption{
+    caption-side: bottom;
+    font-size: 0.8em;
+    align-items: center;
+}

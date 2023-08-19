@@ -1,0 +1,34 @@
+@import url(Grid-2.css);
+@import url(Flex-2.css);
+@import url(button.cards.imagesA.css);
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+
+body{
+    background-color: rgb(179, 179, 179);
+    font-size: 15px;
+    display: grid;
+
+}
+
+
+.box{
+    background-color: rgb(179, 179, 179);
+    border: 1px;
+}  
+
+
+#b{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+#c{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#d{
+    font-size: 1.5em;
+    font-family: 'Oswald', Times, serif;
+}

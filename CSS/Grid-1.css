@@ -1,0 +1,39 @@
+.pagecontainer{
+    display: grid;
+    grid-template-columns: 15px 300px 300px;
+    grid-template-rows: max-content;
+    grid-template-areas:
+    "hd hd hd hd hd"
+    "sb sb main main main "
+    "ft ft ft ft ft";
+}
+
+#a{
+    grid-area: hd;
+}
+
+#b{
+    grid-area: sb;
+}
+
+#c{
+    grid-area: main;
+}
+
+#d{
+    grid-area: ft;
+}
+
+@media(max-width:800px){
+    .pagecontainer{
+        display:grid;
+        justify-content: center;
+        grid-template-columns: 300px;
+        grid-template-rows: 250px ;
+        grid-template-areas:
+        "hd"
+        "main"
+        "sb"
+        "ft";
+    }
+    }
